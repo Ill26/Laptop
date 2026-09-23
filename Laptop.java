@@ -1,15 +1,22 @@
 
-/**
- * Beschreiben Sie hier die Klasse Laptop.
- * 
- * @author (Ihr Name) 
- * @version (eine Versionsnummer oder ein Datum)
- */
 public class Laptop
 {
-    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
     private String hersteller;
     private int kosten;
     private boolean neu;
  
+    public String getHersteller()
+    {
+        return hersteller;
+    }
+    
+    public int getKosten()
+    {
+        return kosten;
+    }
+    
+    public boolean getNeu()
+    {
+        return neu;
+    }
 }
