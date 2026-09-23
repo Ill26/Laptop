@@ -20,18 +20,24 @@ public class Laptop
         return neu;
     }
     
-        public void setHersteller(String neuHersteller)
+    public void setHersteller(String neuHersteller)
     {
         hersteller = neuHersteller;
     }
     
-            public void setHersteller(int neuKosten)
-    {
+    public void setKosten(int neuKosten)    {
         kosten = neuKosten;
     }
     
-            public void setHersteller(boolean neuNeu)
+    public void setNeu(boolean neuNeu)
     {
         neu = neuNeu;
+    }
+    
+    public Laptop(String neuHersteller, int neuKosten, boolean neuNeu)
+    {
+        setHersteller(neuHersteller);
+        setKosten(neuKosten);
+        setNeu(neuNeu);
     }
 }
